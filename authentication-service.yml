@@ -3,7 +3,7 @@ db:
   password: 'password'
   url: 'jdbc:postgresql://authentication-service-db:5432/authentication_service_db'
 redis:
-  host: 'localhost'
+  host: 'redis-db'
   port: 6379
   password:
   username:
