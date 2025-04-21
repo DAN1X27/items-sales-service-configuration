@@ -11,7 +11,7 @@ redis:
 email-keys-storage-time-minutes: 3
 eureka:
   server:
-    url: 'http://localhost:8761/eureka/'
+    url: 'http://eureka-server:8761/eureka/'
   client:
     hostname: 'localhost'
 kafka:

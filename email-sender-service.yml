@@ -9,6 +9,6 @@ kafka:
   group_id: 'email-sender-group-id'
 eureka:
   server:
-    url: 'http://localhost:8761/eureka/'
+    url: 'http://eureka-server:8761/eureka/'
   client:
     hostname: 'localhost'

@@ -6,7 +6,7 @@ max_file_size: '1000MB'
 max_storage_days: 30
 eureka:
   server:
-    url: 'http://localhost:8761/eureka/'
+    url: 'http://eureka-server:8761/eureka/'
   client:
     hostname: 'localhost'
 max_images_count: 10
