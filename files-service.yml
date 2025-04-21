@@ -1,6 +1,6 @@
 eureka:
   client:
-    hostname: 'localhost'
+    hostname: 'files-service'
   server:
     url: 'http://eureka-server:8761/eureka/'
 max_file_size: '1000MB'

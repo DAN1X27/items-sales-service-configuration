@@ -8,7 +8,7 @@ eureka:
   server:
     url: 'http://eureka-server:8761/eureka/'
   client:
-    hostname: 'localhost'
+    hostname: 'announcements-service'
 max_images_count: 10
 kafka:
   host: 'kafka'

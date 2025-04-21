@@ -6,7 +6,7 @@ eureka:
   server:
     url: 'http://eureka-server:8761/eureka/'
   client:
-    hostname: 'localhost'
+    hostname: 'users-service'
 kafka:
   host: 'kafka'
   port: 9093
