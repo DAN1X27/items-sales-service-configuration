@@ -1,7 +1,7 @@
 db:
   username: 'user'
   password: 'password'
-  url: 'jdbc:postgresql://localhost:5433/users_service_db'
+  url: 'jdbc:postgresql://db:5433/users_service_db'
 eureka:
   server:
     url: 'http://eureka-server:8761/eureka/'

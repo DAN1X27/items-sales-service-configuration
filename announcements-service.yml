@@ -1,7 +1,7 @@
 db:
   username: 'user'
   password: 'password'
-  url: 'jdbc:postgresql://localhost:5435/announcements_service_db'
+  url: 'jdbc:postgresql://db:5435/announcements_service_db'
 max_file_size: '1000MB'
 max_storage_days: 30
 eureka:
