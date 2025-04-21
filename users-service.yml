@@ -1,0 +1,15 @@
+db:
+  username: 'user'
+  password: 'password'
+  url: 'jdbc:postgresql://localhost:5433/users_service_db'
+eureka:
+  server:
+    url: 'http://localhost:8761/eureka/'
+  client:
+    hostname: 'localhost'
+kafka:
+  host: 'localhost'
+  port: 9092
+max-file-size: '1000MB'
+default-avatar: '3a2cd62f-121a-48b5-b0aa-e54454d4d996.jpg'
+access_key: 'key'

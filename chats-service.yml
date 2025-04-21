@@ -1,0 +1,16 @@
+db:
+  username: 'user'
+  password: 'password'
+  url: 'jdbc:postgresql://localhost:5436/chats_service_db'
+eureka:
+  server:
+    url: 'http://localhost:8761/eureka/'
+  client:
+    hostname: 'localhost'
+kafka:
+  host: 'localhost'
+  port: 9092
+  group-id: 'groupId'
+allowed_origin: 'http://localhost:63342/'
+access_key: 'key'
+max_file_size: '1000MB

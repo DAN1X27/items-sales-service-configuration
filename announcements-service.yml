@@ -1,0 +1,18 @@
+db:
+  username: 'user'
+  password: 'password'
+  url: 'jdbc:postgresql://localhost:5435/announcements_service_db'
+max_file_size: '1000MB'
+max_storage_days: 30
+eureka:
+  server:
+    url: 'http://localhost:8761/eureka/'
+  client:
+    hostname: 'localhost'
+max_images_count: 10
+kafka:
+  host: 'localhost'
+  port: 9092
+  group-id: 'announcements-group-id'
+access_key: 'key'
+currency_converter_api_key: 'key'
