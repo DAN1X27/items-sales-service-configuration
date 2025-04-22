@@ -9,7 +9,7 @@ eureka:
     hostname: 'users-service'
 kafka:
   host: 'kafka'
-  port: 9093
+  port: 9092
 max-file-size: '1000MB'
 default-avatar: '3a2cd62f-121a-48b5-b0aa-e54454d4d996.jpg'
 access_key: 'key'

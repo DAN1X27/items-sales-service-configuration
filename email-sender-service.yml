@@ -5,7 +5,7 @@ mail:
   password: 'password'
 kafka:
   host: 'kafka'
-  port: 9093
+  port: 9092
   group_id: 'email-sender-group-id'
 eureka:
   server:

@@ -6,6 +6,6 @@ eureka:
 max_file_size: '1000MB'
 kafka:
   host: 'kafka'
-  port: 9093
+  port: 9092
   group-id: 'files-group-id'
 access_key: 'key'

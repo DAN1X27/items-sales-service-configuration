@@ -9,7 +9,7 @@ eureka:
     hostname: 'chats-service'
 kafka:
   host: 'kafka'
-  port: 9093
+  port: 9092
   group-id: 'groupId'
 allowed_origin: 'http://localhost:63342/'
 access_key: 'key'

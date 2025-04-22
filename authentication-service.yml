@@ -16,7 +16,7 @@ eureka:
     hostname: 'authentication-service'
 kafka:
   host: 'kafka'
-  port: 9093
+  port: 9092
   group-id: 'auth-group-id'
 jwt_secret: 'secret'
 access_key: 'key'
