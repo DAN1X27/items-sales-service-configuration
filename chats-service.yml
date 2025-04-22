@@ -13,4 +13,4 @@ kafka:
   group-id: 'groupId'
 allowed_origin: 'http://localhost:63342/'
 access_key: 'key'
-max_file_size: '1000MB
+max_file_size: '1000MB'
