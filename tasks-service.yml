@@ -2,5 +2,5 @@ eureka:
   server:
     url: 'http://eureka-server:8761/eureka/'
   client:
-    hostname: 'users-service'
+    hostname: 'tasks-service'
 access_key: 'key'
