@@ -6,7 +6,7 @@ max_file_size: '1000MB'
 max_storage_days: 30
 eureka:
   server:
-    url: 'http://eureka-server:8761/eureka/'
+    url: 'http://username:password@eureka-server:8761/eureka/'
   client:
     hostname: 'announcements-service'
 max_images_count: 10

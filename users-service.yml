@@ -4,7 +4,7 @@ db:
   url: 'jdbc:postgresql://users-service-db:5432/users_service_db'
 eureka:
   server:
-    url: 'http://eureka-server:8761/eureka/'
+    url: 'http://username:password@eureka-server:8761/eureka/'
   client:
     hostname: 'users-service'
 kafka:

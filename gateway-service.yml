@@ -1,6 +1,6 @@
 eureka:
   server:
-    url: 'http://eureka-server:8761/eureka/'
+    url: 'http://username:password@eureka-server:8761/eureka/'
   client:
     hostname: 'localhost'
 allowed_origin: 'http://localhost:63342/'

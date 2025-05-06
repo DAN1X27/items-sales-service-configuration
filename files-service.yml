@@ -2,7 +2,7 @@ eureka:
   client:
     hostname: 'files-service'
   server:
-    url: 'http://eureka-server:8761/eureka/'
+    url: 'http://username:password@eureka-server:8761/eureka/'
 max_file_size: '1000MB'
 kafka:
   host: 'kafka'
