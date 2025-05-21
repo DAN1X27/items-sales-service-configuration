@@ -1,6 +1,4 @@
 security:
   username: 'username'
   password: 'password'
-host: localhost
-port: 8761
 url: 'http://username:password@eureka-server:8761/eureka/'
