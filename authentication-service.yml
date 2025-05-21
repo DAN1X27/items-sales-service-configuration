@@ -21,3 +21,4 @@ kafka:
 jwt_secret: 'secret'
 access_key: 'key'
 max-email-key-attempts: 3
+tokens-storage-days: 30
