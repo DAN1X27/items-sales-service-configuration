@@ -6,7 +6,7 @@ redis:
   host: 'redis-db'
   port: 6379
   password: 'password'
-  username: 'user'
+  username:
   database: 0
 email-keys-storage-time-minutes: 3
 eureka:

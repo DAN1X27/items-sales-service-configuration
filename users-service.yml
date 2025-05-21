@@ -8,10 +8,10 @@ eureka:
   client:
     hostname: 'users-service'
 redis:
-  host: 'localhost'
+  host: 'redis-db'
   port: 6379
   password: 'password'
-  username: 'user'
+  username:
   database: 0
 kafka:
   host: 'kafka'
