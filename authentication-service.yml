@@ -5,8 +5,8 @@ db:
 redis:
   host: 'redis-db'
   port: 6379
-  password:
-  username:
+  password: 'password'
+  username: 'user'
   database: 0
 email-keys-storage-time-minutes: 3
 eureka:
@@ -20,3 +20,4 @@ kafka:
   group-id: 'auth-group-id'
 jwt_secret: 'secret'
 access_key: 'key'
+max-email-key-attempts: 3
