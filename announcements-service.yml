@@ -16,3 +16,4 @@ kafka:
   group-id: 'announcements-group-id'
 access_key: 'key'
 currency_converter_api_key: 'key'
+allowed_origins: http://localhost:8080

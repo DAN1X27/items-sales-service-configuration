@@ -14,3 +14,4 @@ kafka:
 allowed_origin: 'http://localhost:63342/'
 access_key: 'key'
 max_file_size: '1000MB'
+allowed_origins: http://localhost:8080, http://localhost:63342/

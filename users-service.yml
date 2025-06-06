@@ -20,3 +20,4 @@ max-file-size: '1000MB'
 default-avatar: '3a2cd62f-121a-48b5-b0aa-e54454d4d996.jpg'
 access_key: 'key'
 temp-users_storage_time: 3
+allowed_origins: http://localhost:8080
