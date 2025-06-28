@@ -14,6 +14,11 @@ kafka:
   host: 'kafka'
   port: 9092
   group-id: 'announcements-group-id'
+jwt:
+  issuer-uri: http://keycloak:8081/realms/items-sales-service
+  jwk-set-uri: http://keycloak:8081/realms/items-sales-service/protocol/openid-connect/certs
+  principal-attribute: preferred_username
+  resource-id: authentication-service
 access_key: 'key'
 currency_converter_api_key: 'key'
-allowed_origins: http://localhost:8080
+allowed_origins: http://localhost:8080, http://localhost:3000, http://localhost:63342

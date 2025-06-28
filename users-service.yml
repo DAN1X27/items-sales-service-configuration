@@ -16,8 +16,13 @@ redis:
 kafka:
   host: 'kafka'
   port: 9092
+jwt:
+  issuer-uri: http://keycloak:8081/realms/items-sales-service
+  jwk-set-uri: http://keycloak:8081/realms/items-sales-service/protocol/openid-connect/certs
+  principal-attribute: preferred_username
+  resource-id: authentication-service
 max-file-size: '1000MB'
 default-avatar: '3a2cd62f-121a-48b5-b0aa-e54454d4d996.jpg'
 access_key: 'key'
 temp-users_storage_time: 3
-allowed_origins: http://localhost:8080
+allowed_origins: http://localhost:8080, http://localhost:63342, http://localhost:3000

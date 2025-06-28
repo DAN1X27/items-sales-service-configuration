@@ -18,8 +18,17 @@ kafka:
   host: 'kafka'
   port: 9092
   group-id: 'auth-group-id'
-jwt_secret: 'secret'
+jwt:
+  issuer-uri: http://keycloak:8081/realms/items-sales-service
+  jwk-set-uri: http://keycloak:8081/realms/items-sales-service/protocol/openid-connect/certs
+  principal-attribute: preferred_username
+  resource-id: authentication-service
+keycloak:
+  url: http://keycloak:8081
+  client-id: authentication-service
+  client-secret: s0TSP30rUsiTPo1fIv5yLBaHzfykgQht
+  admin-client-id: admin-cli
+  admin-client-secret: RDhnBDzBFPWQb2UL4bmeAHl7DFkEvjTM
 access_key: 'key'
 max-email-key-attempts: 3
-tokens-storage-days: 30
-allowed_origins: http://localhost:8080
+allowed_origins: http://localhost:8080, http://localhost:3000, http://localhost:63342
