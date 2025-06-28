@@ -26,9 +26,9 @@ jwt:
 keycloak:
   url: http://keycloak:8081
   client-id: authentication-service
-  client-secret: s0TSP30rUsiTPo1fIv5yLBaHzfykgQht
+  client-secret: FxvKI3uu2GHAi5lrnrBceqXcnEWSlxJd
   admin-client-id: admin-cli
-  admin-client-secret: RDhnBDzBFPWQb2UL4bmeAHl7DFkEvjTM
+  admin-client-secret: M2ilTR2xEI0lRUVPZvVvORf5sUuHHjaL
 access_key: 'key'
 max-email-key-attempts: 3
 allowed_origins: http://localhost:8080, http://localhost:3000, http://localhost:63342
