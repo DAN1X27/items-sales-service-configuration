@@ -7,6 +7,8 @@ kafka:
   host: 'kafka'
   port: 9092
   group_id: 'email-sender-group-id'
+  topics:
+    email-message: email_message
 eureka:
   server:
     url: 'http://username:password@eureka-server:8761/eureka/'

@@ -8,4 +8,7 @@ kafka:
   host: 'kafka'
   port: 9092
   group-id: 'files-group-id'
+  topics:
+    deleted-chat: deleted_chat
+    deleted-announcement: deleted_announcement
 access_key: 'key'

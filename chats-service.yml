@@ -11,6 +11,8 @@ kafka:
   host: 'kafka'
   port: 9092
   group-id: 'groupId'
+  topics:
+    deleted-chat: deleted_chat
 jwt:
   issuer-uri: http://keycloak:8081/realms/items-sales-service
   jwk-set-uri: http://keycloak:8081/realms/items-sales-service/protocol/openid-connect/certs
@@ -19,3 +21,4 @@ jwt:
 access_key: 'key'
 max_file_size: '1000MB'
 allowed_origins: http://localhost:8080, http://localhost:63342, http://localhost:3000
+encrypt-secret-key: 6RqMfH6Abfsfg4DKb1IkNR4NOi8Q1XNg
